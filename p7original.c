@@ -9,7 +9,7 @@ typedef struct line{
 }line;
 point input_point(){
     point z;
-    printf("Enter the co-ordinates of the points\n");
+    printf("enter the coordinates of the point\n");
     scanf("%f %f",&z.x,&z.y);
     return z;
 }
